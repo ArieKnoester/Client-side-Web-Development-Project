@@ -1,0 +1,1 @@
+This was my final project for a Client-side Web Development course. This was an individual project, so I am the author of all work contained on the site with 1 exception. The styling of the horizontal rule <hr> was found from the net. However, I did give the author proper credit as well as a link to the original code in the ggstyles.css page.

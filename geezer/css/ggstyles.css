@@ -1,0 +1,258 @@
+
+/*
+	Arie Knoester
+	CS 300-02, Fall 2014
+	Prof Porps
+*/
+
+ body
+ {
+	background-color: #171717;
+ }
+ 
+ #banner
+ {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 35px;
+ }
+
+ /*****************************************
+	mainnav: implements a drop down menu
+ ******************************************/
+ 
+#mainnav
+{
+	background-color: #CF2525;
+	width: 975px;
+	text-align: center;
+	position: relative;
+	margin-top: -5px;
+	margin-left: auto;
+	margin-right: auto;
+	z-index: 1;
+}
+
+#mainnav ul
+{
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+	position: relative;
+}
+
+#mainnav ul li 
+{
+	display: inline-block;
+	font-size: 23px;
+	min-width: 345px;
+}
+
+
+#mainnav ul li:hover
+{
+	background-color: #AF2525;
+}
+
+#mainnav ul li a, unvisited
+{
+	color: white;
+	text-decortation: none;
+	display: block;
+	padding: 15px;
+}
+
+#mainnav ul li a, visited
+{
+	color: white;
+	text-decoration: none;
+	display: block;
+	padding: 15px;
+}
+#subnav
+{
+	min-width: 428px;
+}
+
+#mainnav ul li:hover ul 
+{
+	display: block;
+}
+
+#mainnav ul ul 
+{
+	display: none;
+	position: absolute;
+}
+
+#mainnav ul ul li 
+{
+	display: block;
+	background-color: #AF2525;
+}
+
+#mainnav ul ul li:hover
+{
+	background-color: #CF2525;
+	
+}
+
+
+#mainnav ul ul li a
+{
+	font-size: 20px;
+}
+
+/*********************************************
+	end mainnav 
+*********************************************/
+
+ #article
+ {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: white;
+	width: 895px;
+	padding: 40px;
+	font-family: Trebucet MS, sans-serif;
+	font-size: 18px;
+	margin-top: 0px;
+	/*z-index: -1;*/
+ }
+
+ 
+ div * em 
+ {
+	font-weight: bold;
+	font-size: 20px;
+ }
+ 
+ h2
+ {
+	font-family: Georgia;
+	font-variant: small-caps;
+	text-align: center;
+ }
+ 
+ .screenshot
+ {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 60px;
+ }
+ 
+ .caption
+ {
+	text-align: center;
+	margin-bottom: 60px;
+	font-family: serif;
+	font-style: italic;
+ }
+ 
+ .justified
+ {
+	text-align: justify;
+ }
+ 
+ #thanks
+ {
+	width: 251px;
+	height: 201px;
+	display: block; 
+	position: relative; 
+	margin-left: auto; 
+	margin-right: auto;
+ }
+ 
+ #footer
+ {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	width: 945px;
+	padding: 15px;
+	background-color: #CF2525;
+	font-family: Candara;
+	color: white;
+ }
+ 
+ #sitemap
+ {
+	border-collapse: collapse;
+ }
+ 
+ #sitemap th
+ {
+	text-align: left;
+	font-size: 18px;
+	padding-bottom: 5px;
+	
+	font-variant: small-caps;
+ }
+ 
+ #sitemap td
+ {
+	text-align: left;
+	padding-right: 80px;
+	
+ }
+ 
+ #sitemap a, visited
+ {
+	text-decoration: none;
+ }
+ 
+ #sitemap a, unvisited
+ {
+	text-decoration: none;
+ }
+ 
+ a:link
+ {
+	color: white;
+ }
+ 
+ a:unvisited
+ {
+	color: white;
+ }
+ 
+ a:visited
+ {
+	color: white;
+ }
+ 
+ /****************************************
+	Note: hr styling is NOT my original
+	creation. The code was found at:
+	http://css-tricks.com/examples/hrs/
+	and authored by Tomas Theunissen
+ ****************************************/
+ 
+ hr
+ { height: 30px; 
+ border-style: solid; 
+ border-color: white; 
+ border-width: 1px 0 0 0; 
+ border-radius: 20px; 
+ margin-top: 30px;
+ } 
+ 
+ hr:before{  
+ display: block; 
+ content: ""; 
+ height: 30px; 
+ margin-top: -31px; 
+ border-style: solid; 
+ border-color: white; 
+ border-width: 0 0 1px 0; 
+ border-radius: 20px; 
+ }
+ 
+ 
+ 
+ 
+ 
